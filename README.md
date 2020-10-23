@@ -5,11 +5,9 @@ Home: https://pypi.org/project/pytest-json-report/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-json-report-feedstock/blob/master/LICENSE.txt)
 
 Summary: A pytest plugin to report test results as JSON files
-
-
 
 Current build status
 ====================
