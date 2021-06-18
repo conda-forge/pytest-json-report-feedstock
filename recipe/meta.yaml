@@ -1,5 +1,5 @@
 {% set name = "pytest-json-report" %}
-{% set version = "1.2.4" %}
+{% set version = "1.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 490156833b6bec8bf5dd8c2e328bf36cf34b062fda45b47aba9a42e6b0653178
+  sha256: 9d0754ea0b50624c41a5ba2ddf4b15c18af600ef3a736968090dd60afba258f6
 
 build:
   number: 0
