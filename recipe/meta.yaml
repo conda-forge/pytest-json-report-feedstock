@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - pytest >=4.2.0
     - pytest-metadata
-    - python
+    - python >=3.6
 
 test:
   imports:
