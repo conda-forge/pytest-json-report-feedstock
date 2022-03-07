@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - pytest >=4.2.0
+    - pytest >=3.8.0
     - pytest-metadata
     - python >=3.6
 
