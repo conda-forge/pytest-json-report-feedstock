@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
+* [@megies](https://github.com/megies/)
 
