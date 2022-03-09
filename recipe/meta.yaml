@@ -1,5 +1,5 @@
 {% set name = "pytest-json-report" %}
-{% set version = "1.2.4" %}
+{% set version = "1.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 490156833b6bec8bf5dd8c2e328bf36cf34b062fda45b47aba9a42e6b0653178
+  sha256: 87206752e1d9c6c86e8fdc66b34b7a452ad82766a621b263cd5e828d19caee55
 
 build:
   number: 0
@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - pytest >=4.2.0
+    - pytest >=3.8.0
     - pytest-metadata
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -37,3 +37,4 @@ about:
 extra:
   recipe-maintainers:
     - marcelotrevisani
+    - megies
